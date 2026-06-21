@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://hcaptcha.com/1/api.js" async defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ockert Oosthuizen</title>
+  <meta name="description" content="Get in touch with Ockert Oosthuizen — open to collaborations, questions, and conversations.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">O<span class="accent">.</span>Oosthuizen</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="games.html">Games</a></li>
+      </ul>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </nav>
+  </header>
+
+  <div class="page-hero">
+    <p class="section-label">Let's talk</p>
+    <h1>Get In <span style="color:var(--cyan)">Touch</span></h1>
+    <p>Open to collaborations, questions, or just a good tech conversation.</p>
+  </div>
+
+  <section class="section">
+    <div class="contact-grid">
+
+      <!-- Left: info -->
+      <div class="contact-info reveal">
+        <p>
+          Whether you want to collaborate on a project, have a question about something I've built,
+          or just want to talk about Delphi, Python, or custom PC builds — I'm happy to hear from you.
+        </p>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📍</div>
+          <div class="contact-item-text">
+            <div class="label">Location</div>
+            <div class="value">Klerksdorp, North West, South Africa</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">📧</div>
+          <div class="contact-item-text">
+            <div class="label">Email</div>
+            <div class="value">youremail@example.com</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">💻</div>
+          <div class="contact-item-text">
+            <div class="label">GitHub</div>
+            <div class="value">github.com/yourusername</div>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-item-icon">🔗</div>
+          <div class="contact-item-text">
+            <div class="label">LinkedIn</div>
+            <div class="value">linkedin.com/in/yourusername</div>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem; padding: 1.5rem; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius);">
+          <p style="font-family: var(--font-mono); font-size: 0.78rem; color: var(--red); margin-bottom: 0.5rem;">// availability</p>
+          <p style="font-size: 0.88rem; color: var(--muted);">
+            Currently open to freelance work, student collaborations, and interesting side projects.
+            Response time is usually within 24–48 hours.
+          </p>
+        </div>
+      </div>
+       <!-- Right: form -->
+<div class="reveal">
+  <form class="contact-form" action="https://formspree.io/f/mzdlpjgv" method="POST">
+    <!-- Redirect to thank-you page -->
+    <input type="hidden" name="_next" value="https://www.ockertoosthuizen.org/thank-you.html">
+    
+    <!-- Custom subject line -->
+    <input type="hidden" name="_subject" value="New Contact Form Submission">
+    
+    <!-- Honeypot spam protection -->
+    <input type="text" name="_gotcha" style="display:none">
+
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" placeholder="What's this about?">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" placeholder="Tell me what's on your mind..." required></textarea>
+    </div>
+
+    <!-- hCaptcha widget -->
+    <div class="captcha-wrapper">
+      <div class="h-captcha" data-sitekey="afb6db7a-8d4e-4788-be3a-1c16d85eefe4"></div>
+    </div>    
+
+    <button type="submit" class="btn" style="width:100%; justify-content:center;">
+      Send Message
+    </button>
+  </form>
+</div>
+
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="padding-top:0;">
+    <p class="section-label">Before you ask</p>
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="divider"></div>
+
+    <div class="faq reveal">
+      <div class="faq-item open">
+        <div class="faq-question">Do you take freelance or contract work?</div>
+        <div class="faq-answer"><p>Yes — I'm currently open to freelance projects, student collaborations, and small business sites. Send a message with what you need and I'll reply within 24–48 hours.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">What's your main tech stack?</div>
+        <div class="faq-answer"><p>Delphi/Pascal for structured desktop logic, Python for automation, C++ for low-level work, and HTML/CSS/JavaScript for the web — including this site, hand-built with no framework.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Can you help with hardware, not just software?</div>
+        <div class="faq-answer"><p>Yes — I build and troubleshoot custom PCs from scratch: component sourcing, assembly, BIOS configuration, and diagnostics.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">Do you work remotely?</div>
+        <div class="faq-answer"><p>Yes, I'm based in Klerksdorp, South Africa, and work with clients and collaborators remotely.</p></div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-question">How fast do you respond?</div>
+        <div class="faq-answer"><p>Usually within 24–48 hours. For urgent matters, mention it in your subject line.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">O<span class="accent">.</span>Oo</div>
+    <p>&copy; 2026 Ockert Oosthuizen. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/yourusername" class="social-link" target="_blank">GH</a>
+      <a href="https://linkedin.com/in/yourusername" class="social-link" target="_blank">in</a>
+    </div>
+  </footer>
+
+      <script src="assets/js/main.js"></script>
+
+  <!-- Unified form script -->
+  <script>
+  const form = document.querySelector('.contact-form');
+  const btn = form.querySelector('button');
+
+  // Add status message container
+  const status = document.createElement('div');
+  status.id = "form-status";
+  status.style.marginTop = "1rem";
+  status.style.color = "var(--cyan)";
+  form.appendChild(status);
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const email = form.querySelector('[name="email"]').value;
+    const message = form.querySelector('[name="message"]').value;
+
+    // Client-side validation
+    if (!email.includes('@')) {
+      status.textContent = "Please enter a valid email address.";
+      return;
+    }
+    if (message.length < 10) {
+      status.textContent = "Message must be at least 10 characters long.";
+      return;
+    }
+
+    // Loading state
+    btn.disabled = true;
+    btn.textContent = "Sending...";
+
+    // Submit to Formspree
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      status.textContent = "Message sent successfully!";
+      btn.textContent = "Sent!";
+      form.reset();
+      // Redirect after success
+      window.location.href = "thank-you.html";
+    } else {
+      status.textContent = "Oops! Something went wrong.";
+      btn.disabled = false;
+      btn.textContent = "Send Message";
+    }
+  });
+  </script>
+
+  <script>
+  document.querySelector('.contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const form = e.target;
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (response.ok) {
+      window.location.href = "thank-you.html";
+    } else {
+      alert("Oops! Something went wrong.");
+    }
+  });
+  </script>
+
+</body>
+</html>
